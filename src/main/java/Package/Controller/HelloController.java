@@ -16,7 +16,7 @@ public class HelloController {
         return "¡Hello world from Heroku server!";
     }
 
-    @GetMapping("/bootstrap")
+    @GetMapping("/")
     public String bootstrap(){
         return """
                 <!doctype html>
@@ -32,8 +32,8 @@ public class HelloController {
                     <title>Hello, world!</title>
                   </head>
                   <body>
-                    <h1>Hola mundo desde Srping Boot!</h1>
-                     <a class="btn btn-primary" href="https://www.google.com"> Google </a>
+                    <h1>Hola mundo desde Spring Boot y Heroku :D!</h1>
+                     <a class="btn btn-primary" href="https://github.com/juancalderonx"> Github de Juan </a>
                     <!-- Optional JavaScript; choose one of the two! -->
                                 
                     <!-- Option 1: Bootstrap Bundle with Popper -->

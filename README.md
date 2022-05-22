@@ -1,6 +1,6 @@
-#Mi primer despliegue de una app Spring en Heroku
+# Mi primer despliegue de una app Spring en Heroku
 
-###Pasos para hacerlo:
+### Pasos para hacerlo:
 
 1. Lo primero e ideal es tener el archivo `system.properties` con el contenido:
     
@@ -14,5 +14,6 @@
 5. Hacer **login** con Heroku desde la terminal con el comando:
 `git push heroku master`
 6. Por último, cada que hagamos un cambio hay que usar el paso 5, ya que no está habilitado el deploy automático.
-
-####¡Y listo, con esto tenemos ya nuestra app en la web!
+***
+### ¡Y listo, con esto tenemos ya nuestra app en la web!
+***

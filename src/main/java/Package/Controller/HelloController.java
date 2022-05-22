@@ -13,7 +13,7 @@ public class HelloController {
     @GetMapping("/hola")
     public String holaMundo(){
         System.out.println(productionMessage);
-        return "Méndez es gay";
+        return "¡Hello world from Heroku server!";
     }
 
     @GetMapping("/bootstrap")
